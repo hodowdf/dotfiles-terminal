@@ -28,6 +28,7 @@ sudo apt update
 sudo apt install -y git curl
 git clone https://github.com/hodowdf/dotfiles-terminal.git
 cd dotfiles-terminal
+chmod +x install.sh
 ./install.sh
 ```
 
