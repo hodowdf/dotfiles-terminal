@@ -6,7 +6,7 @@
         "width": 20,
         "height": 10,
     },
-    "display": {
+        "display": {
         "separator": "  ",
         "color": { "keys": "green", "output": "blue", "title": "green" },
         "constants": ["\u001b[32m", "\u001b[32m"]
@@ -18,16 +18,16 @@
         },
         {
             "type": "command",
-            "key": "  │ {$2}{$1}  usuario │",
+            "key": "  │ {$2}{$1}  usuario │",
             "text": "echo $USER"
         },
         {
             "type": "kernel",
-            "key": "  │ {$2}{$1}  kernel  │"
+            "key": "  │ {$2}{$1}  kernel  │"
         },
         {
             "type": "os",
-            "key": "  │ {$2}{$1}  os      │"
+            "key": "  │ {$2}{$1}  os      │"
         },
         {
             "type": "wm",
@@ -35,12 +35,12 @@
         },
         {
             "type": "terminal",
-            "key": "  │   terminal│",
+            "key": "  │   terminal│",
             "folder": "/"
         },
         {
             "type": "memory",
-            "key": "  │ {$2}{$1}  memoria │"
+            "key": "  │ {$2}{$1}  memoria │"
         },
         {
             "type": "uptime",
@@ -52,7 +52,7 @@
         },
         {
             "type": "packages",
-            "key": "  │   Paquetes│"
+            "key": "  │   Paquetes│"
         },
         {
             "type": "custom",
