@@ -29,7 +29,7 @@ if status is-interactive
     # atuin toma control de Ctrl+R para búsqueda en historial.
 
     function ff
-        set -l images $__fish_config_dir/fastfetch/logo/*.jpg
+        set -l images ~/.config/fastfetch/logo/*.jpg
         if set -q images[1]
             fastfetch --logo $images[(random 1 (count $images))]
         else
